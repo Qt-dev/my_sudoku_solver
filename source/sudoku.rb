@@ -1,5 +1,4 @@
 class Sudoku
-<<<<<<< HEAD
   def initialize board_string
     @board = []
     board_string.split('').each_with_index do |cell_value, index|
