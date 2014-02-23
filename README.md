@@ -8,7 +8,7 @@ It is based on this solution : [results of a solver](http://norvig.com/sudoku.ht
 Basically what it does is :
 
 - Replace every cell that has only 1 possible value
-_ Replace every cell that is the only possible location for a value (ex: 1 can only be in this cell for this row)
+- Replace every cell that is the only possible location for a value (ex: 1 can only be in this cell for this row
 - If it gets stuck, it fixes a value among those whith the least possible values, and goes back to doing the first two things
 
 All that until it is solved.
